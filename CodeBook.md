@@ -1,6 +1,7 @@
 ####Code book of the tidy data set 
 
 The variables used for the script:
+
 1. Xtest - test measurement data  
 2. ytest - test activity data  
 3. subject_test - test subject data  
