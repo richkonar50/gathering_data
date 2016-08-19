@@ -1,5 +1,24 @@
 ####Code book of the tidy data set 
 
+The variables used for the script:
+1. Xtest - test measurement data  
+2. ytest - test activity data  
+3. subject_test - test subject data  
+4. Xtrain - training measurement data  
+5. ytrain - training activity data  
+6. subject_train - training subject data  
+7. xall - combined test and training measurement data  
+8. yall - combined test and training activity data  
+9. subject_all - combined test and training subject data  
+10. features - the list of features provided with the dataset 
+11. activity_labels - the list of the activity labels
+11. select- columns with mean or standard deviation from amongst the features  
+12. colSelection - alldata filtered only for the mean and std deviation columns  
+13. activity - activity names provided with the dataset  
+14. colnames(activity) & colnames(subject_all) - all the column names for the various measurements from features  
+15. data2 - aggregate data to get the averages needed as output  
+
+
 **Subject** is a numeric factor.  **Activity** is a factor of six different 
 activities.  There are 88 mean and standard deviation measurements.  Each measurement has been averaged per Activity per subject. 
 
