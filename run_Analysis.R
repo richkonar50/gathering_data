@@ -59,4 +59,5 @@ colnames(data2)[1:2] <- c("Subject", "Activity")
 colnames(data2)[3:length(colnames(data2))] <- 
         paste0("mean.", colnames(data2)[3:length(colnames(data2))])
 
- write.table(data2, file = "tidydata.txt",row.name=FALSE)
+##Write text file for #5
+write.table(data2, file = "tidydata.txt",row.name=FALSE)
