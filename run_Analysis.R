@@ -4,6 +4,7 @@ rm(list = ls())
 ##Download
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url, destfile = "./UCI HAR Dataset.zip", method = "curl")
+unzip(zipfile = "./UCI HAR Dataset.zip"
 
 ##Read X & Y-Test Data
 Xtest <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE)
