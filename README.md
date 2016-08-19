@@ -6,7 +6,7 @@ The script uses UC Irvine's Human Acitvity Recognition Using Smartphones Data Se
 
 Here is the link to the data set: [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-This is what the script should be able to do:
+This is what the script does:
 
 1.  Merges the training and the test sets to create one data set.
 2.  Extracts only the measurements on the mean and standard deviation for each measurement.
